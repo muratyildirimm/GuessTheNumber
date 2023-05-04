@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13193F7329D0963E00393F52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13193F7229D0963E00393F52 /* AppDelegate.swift */; };
+		13193F7529D0963E00393F52 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13193F7429D0963E00393F52 /* SceneDelegate.swift */; };
+		13193F7729D0963E00393F52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13193F7629D0963E00393F52 /* ViewController.swift */; };
+		13193F7A29D0963E00393F52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13193F7829D0963E00393F52 /* Main.storyboard */; };
+		13193F7D29D0963E00393F52 /* GuessTheNumber.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 13193F7B29D0963E00393F52 /* GuessTheNumber.xcdatamodeld */; };
+		13193F7F29D0963F00393F52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13193F7E29D0963F00393F52 /* Assets.xcassets */; };
+		13193F8229D0963F00393F52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13193F8029D0963F00393F52 /* LaunchScreen.storyboard */; };
+		13193F8A29D09E3200393F52 /* GuessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13193F8929D09E3200393F52 /* GuessViewController.swift */; };
+		13193F8C29D09E4000393F52 /* FinishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13193F8B29D09E4000393F52 /* FinishViewController.swift */; };
+		13193F8E29D09E8700393F52 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13193F8D29D09E8700393F52 /* Constants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13193F6F29D0963E00393F52 /* GuessTheNumber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessTheNumber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13193F7229D0963E00393F52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		13193F7429D0963E00393F52 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		13193F7629D0963E00393F52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		13193F7929D0963E00393F52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13193F7C29D0963E00393F52 /* GuessTheNumber.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GuessTheNumber.xcdatamodel; sourceTree = "<group>"; };
+		13193F7E29D0963F00393F52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13193F8129D0963F00393F52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13193F8329D0963F00393F52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13193F8929D09E3200393F52 /* GuessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessViewController.swift; sourceTree = "<group>"; };
+		13193F8B29D09E4000393F52 /* FinishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishViewController.swift; sourceTree = "<group>"; };
+		13193F8D29D09E8700393F52 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13193F6C29D0963E00393F52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13193F6629D0963E00393F52 = {
+			isa = PBXGroup;
+			children = (
+				13193F7129D0963E00393F52 /* GuessTheNumber */,
+				13193F7029D0963E00393F52 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13193F7029D0963E00393F52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13193F6F29D0963E00393F52 /* GuessTheNumber.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13193F7129D0963E00393F52 /* GuessTheNumber */ = {
+			isa = PBXGroup;
+			children = (
+				13193F7229D0963E00393F52 /* AppDelegate.swift */,
+				13193F7429D0963E00393F52 /* SceneDelegate.swift */,
+				132A16D829EFEFEF003A9CBA /* Constant */,
+				132A16D729EFEFD1003A9CBA /* Scene */,
+				13193F7829D0963E00393F52 /* Main.storyboard */,
+				13193F7E29D0963F00393F52 /* Assets.xcassets */,
+				13193F8029D0963F00393F52 /* LaunchScreen.storyboard */,
+				13193F8329D0963F00393F52 /* Info.plist */,
+				13193F7B29D0963E00393F52 /* GuessTheNumber.xcdatamodeld */,
+			);
+			path = GuessTheNumber;
+			sourceTree = "<group>";
+		};
+		132A16D729EFEFD1003A9CBA /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				13193F7629D0963E00393F52 /* ViewController.swift */,
+				13193F8B29D09E4000393F52 /* FinishViewController.swift */,
+				13193F8929D09E3200393F52 /* GuessViewController.swift */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		132A16D829EFEFEF003A9CBA /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				13193F8D29D09E8700393F52 /* Constants.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13193F6E29D0963E00393F52 /* GuessTheNumber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13193F8629D0963F00393F52 /* Build configuration list for PBXNativeTarget "GuessTheNumber" */;
+			buildPhases = (
+				13193F6B29D0963E00393F52 /* Sources */,
+				13193F6C29D0963E00393F52 /* Frameworks */,
+				13193F6D29D0963E00393F52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GuessTheNumber;
+			productName = GuessTheNumber;
+			productReference = 13193F6F29D0963E00393F52 /* GuessTheNumber.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13193F6729D0963E00393F52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					13193F6E29D0963E00393F52 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 13193F6A29D0963E00393F52 /* Build configuration list for PBXProject "GuessTheNumber" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13193F6629D0963E00393F52;
+			productRefGroup = 13193F7029D0963E00393F52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13193F6E29D0963E00393F52 /* GuessTheNumber */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13193F6D29D0963E00393F52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13193F8229D0963F00393F52 /* LaunchScreen.storyboard in Resources */,
+				13193F7F29D0963F00393F52 /* Assets.xcassets in Resources */,
+				13193F7A29D0963E00393F52 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13193F6B29D0963E00393F52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13193F7D29D0963E00393F52 /* GuessTheNumber.xcdatamodeld in Sources */,
+				13193F8A29D09E3200393F52 /* GuessViewController.swift in Sources */,
+				13193F7729D0963E00393F52 /* ViewController.swift in Sources */,
+				13193F7329D0963E00393F52 /* AppDelegate.swift in Sources */,
+				13193F8E29D09E8700393F52 /* Constants.swift in Sources */,
+				13193F7529D0963E00393F52 /* SceneDelegate.swift in Sources */,
+				13193F8C29D09E4000393F52 /* FinishViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		13193F7829D0963E00393F52 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13193F7929D0963E00393F52 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		13193F8029D0963F00393F52 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13193F8129D0963F00393F52 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13193F8429D0963F00393F52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		13193F8529D0963F00393F52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13193F8729D0963F00393F52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PGPQYQF642;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GuessTheNumber/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-muratduranyildirim.GuessTheNumber";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		13193F8829D0963F00393F52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PGPQYQF642;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GuessTheNumber/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-muratduranyildirim.GuessTheNumber";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13193F6A29D0963E00393F52 /* Build configuration list for PBXProject "GuessTheNumber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13193F8429D0963F00393F52 /* Debug */,
+				13193F8529D0963F00393F52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13193F8629D0963F00393F52 /* Build configuration list for PBXNativeTarget "GuessTheNumber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13193F8729D0963F00393F52 /* Debug */,
+				13193F8829D0963F00393F52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		13193F7B29D0963E00393F52 /* GuessTheNumber.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				13193F7C29D0963E00393F52 /* GuessTheNumber.xcdatamodel */,
+			);
+			currentVersion = 13193F7C29D0963E00393F52 /* GuessTheNumber.xcdatamodel */;
+			path = GuessTheNumber.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 13193F6729D0963E00393F52 /* Project object */;
+}
